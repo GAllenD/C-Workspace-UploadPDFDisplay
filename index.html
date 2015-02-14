@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload Pdf</title>
+
+	<script src="Scripts/jquery-1.11.2.min.js"></script>
+	<script src="Scripts/upload.js"></script>
+</head>
+<body>
+	<div>
+		<form action="#" enctype="multipart/form-data" method="post">
+			<input type="file" name="file_upload" id="file_upload">
+			<input type="submit" name="submit" value="Upload">
+		</form>
+
+	</div>
+
+	<br />
+
+	<iframe id="pdf_display" src="" width="100%" height="600px"></iframe>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			init();
+		});
+	</script>
+</body>
+</html>
